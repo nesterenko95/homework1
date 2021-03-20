@@ -6,88 +6,6 @@
 	},
 	"item": [
 		{
-			"name": "object_info_7",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "formdata",
-					"formdata": [
-						{
-							"key": "age",
-							"value": "25",
-							"type": "text"
-						},
-						{
-							"key": "salary",
-							"value": "100",
-							"type": "text"
-						},
-						{
-							"key": "name",
-							"value": "Alina",
-							"type": "text"
-						}
-					]
-				},
-				"url": {
-					"raw": "116.203.27.46:5002/user_info_3",
-					"host": [
-						"116",
-						"203",
-						"27",
-						"46"
-					],
-					"port": "5002",
-					"path": [
-						"user_info_3"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "object_info_8",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "formdata",
-					"formdata": [
-						{
-							"key": "age",
-							"value": "25",
-							"type": "text"
-						},
-						{
-							"key": "salary",
-							"value": "100",
-							"type": "text"
-						},
-						{
-							"key": "name",
-							"value": "Alina",
-							"type": "text"
-						}
-					]
-				},
-				"url": {
-					"raw": "116.203.27.46:5002/user_info_4",
-					"host": [
-						"116",
-						"203",
-						"27",
-						"46"
-					],
-					"port": "5002",
-					"path": [
-						"user_info_4"
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "object_info_1",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -220,6 +138,91 @@
 			"response": []
 		},
 		{
+			"name": "object_info_4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "25",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "100",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Alina",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "116.203.27.46:5002/object_info_4",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"object_info_4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "object_info_5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "25",
+							"type": "text"
+						},
+						{
+							"key": "weight",
+							"value": "160",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Alina",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "116.203.27.46:5002/user_info_1",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"user_info_1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "object_info_6",
 			"request": {
 				"method": "POST",
@@ -255,6 +258,88 @@
 					"port": "5002",
 					"path": [
 						"user_info_2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "object_info_7",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "25",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "100",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Alina",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "116.203.27.46:5002/user_info_3",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"user_info_3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "object_info_8",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "25",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "100",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Alina",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "116.203.27.46:5002/user_info_4",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5002",
+					"path": [
+						"user_info_4"
 					]
 				}
 			},
